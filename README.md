@@ -2,21 +2,14 @@
 
 > Capstone project for “SmartCycle Data Console (SDC)” – a mini-software prototype to monitor data, troubleshoot devices, collaborate with a team, and address IP & privacy. 
 
-
-
-## Overall Repo Structure (Suggested)
-
-* `/README.md` – main overview + this roadmap
+## Repo Structure
+* `/README.md` – main overview
 * `/module1/` – arrays & weekly data processing
 * `/module2/` – data structures & justification
 * `/module3/` – troubleshooting report & flowchart
 * `/module4/` – collaboration evidence & notes
 * `/module5/` – IP & innovation strategy
 * `/module6/` – data privacy & ethics blueprint
-
-You can adjust folder names, but keep it clear which files belong to which module.
-
-
 
 ## Module 1 – Data Acquisition & Array Processing (Python)
 
