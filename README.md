@@ -2,7 +2,7 @@
 
 > Capstone project for “SmartCycle Data Console (SDC)” – a mini-software prototype to monitor data, troubleshoot devices, collaborate with a team, and address IP & privacy. 
 
----
+
 
 ## Overall Repo Structure (Suggested)
 
@@ -16,7 +16,7 @@
 
 You can adjust folder names, but keep it clear which files belong to which module.
 
----
+
 
 ## Module 1 – Data Acquisition & Array Processing (Python)
 
@@ -67,7 +67,7 @@ You can adjust folder names, but keep it clear which files belong to which modul
 * `module1/smartcycle_module1.py` – your actual code (you will write later)
 * `module1/OUTPUT_SAMPLE.md` – copy/paste a sample run once you’ve tested it
 
----
+
 
 ## Module 2 – Choosing the Right Data Structure
 
@@ -115,7 +115,7 @@ You can adjust folder names, but keep it clear which files belong to which modul
 * `module2/demo_structures.py` – your small Python demo
 * `module2/EXPLANATION.md` – final written justification in paragraph form
 
----
+
 
 ## Module 3 – Systematic Troubleshooting Report
 
@@ -191,7 +191,7 @@ You can sketch first on paper or with a diagram tool, then redraw neatly for sub
 * `module3/FLOWCHART.(png|pdf|drawio)` – exported diagram
 * `module3/NOTES.md` – quick brainstorm / rough notes if needed
 
----
+
 
 ## Module 4 – Collaboration Plan (Google Tools)
 
@@ -247,7 +247,7 @@ Plan out and then execute these steps:
 * `module4/screenshots/…` – images of each tool in use
 * `module4/MEETING_NOTES.md` – summary of at least one Meet session
 
----
+
 
 ## Module 5 – Intellectual Property & Innovation Strategy
 
@@ -309,7 +309,7 @@ Organize your page roughly as:
 * `module5/IP_PLAN.md` – the final 1-page (or close) protection plan
 * `module5/MAPPING_TABLE.md` – optional, a more detailed component → IP mapping
 
----
+
 
 ## Module 6 – Data Privacy & Ethics Blueprint
 
@@ -382,7 +382,7 @@ Write a blueprint with these sections:
 * `module6/PRIVACY_BLUEPRINT.md` – full writeup with sections above
 * `module6/DATA_INVENTORY_TABLE.md` – optional, list of data + risks + controls
 
----
+
 
 ## Final Deliverables Checklist
 
