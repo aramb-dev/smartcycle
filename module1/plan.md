@@ -6,7 +6,7 @@
   - Unit: miles
   - One element = total distance ridden in one day.
   - Typical daily value: around 29.2 miles.
-  - Expected range: from about ____ miles to about ____ miles.
+  - Expected range: from about 20 miles to about 80 miles.
 
 - **Battery readings (`battery_readings`)**
   - Unit: percent (%)
