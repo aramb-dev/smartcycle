@@ -9,20 +9,21 @@
   - Component name
   - Quantity available
 
-**Example operations I will demonstrate:**
+**Operations I will demonstrate:**
 - Look up a component using its ID
 - Update the quantity after a component replacement
 - Add a new component to the inventory
 
 ## 2. Set: Error Codes
-**Structure:** set  
-**Purpose:** Store unique error codes detected during rides (no duplicates).
+**Structure:** Set  
+**Purpose:** Store unique error codes detected during SmartCycle rides.
 
-- **Error code format:** ____________________ (e.g., "E101", "E203")
-- **Example operations I will demonstrate:**
-  - Add error codes from multiple ride logs
-  - Show that duplicates are automatically removed
-  - Check if a specific error code occurred
+- **Error code format:** Numeric-style strings (e.g., "E101", "E202", "E305")
+
+**Operations I will demonstrate:**
+- Add multiple error codes from ride logs
+- Automatically remove duplicate error codes
+- Check whether a specific error code occurred during the week
 
 ## 3. List: User Activity Logs
 **Structure:** list  
