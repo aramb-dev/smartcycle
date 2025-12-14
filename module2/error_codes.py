@@ -146,4 +146,4 @@ def clean_error_codes():
     lookup = input("Do you want to look up the error codes? (y/n): > ")
     lookup = lookup.lower()
     if lookup == "y":
-        lookup_error_codes()
+        lookup_error_codes(error_codes_list)
