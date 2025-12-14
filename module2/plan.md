@@ -26,14 +26,18 @@
 - Check whether a specific error code occurred during the week
 
 ## 3. List: User Activity Logs
-**Structure:** list  
-**Purpose:** Store a chronological record of user actions in the app.
+**Structure:** List  
+**Purpose:** Store a chronological record of user activity within the SmartCycle application.
 
-- **Each log entry contains:** ____________________ (e.g., user, action, timestamp)
-- **Example operations I will demonstrate:**
-  - Append a new log entry
-  - Display the most recent actions
-  - Filter or scan for a particular action
+- **Each log entry contains:**
+  - User identifier
+  - Action performed (e.g., "viewed weekly report", "synced device")
+  - Timestamp of the action
+
+**Operations I will demonstrate:**
+- Append a new activity log entry
+- Display recent user actions in order
+- Scan the log to find when a specific action occurred
 
 ## 4. Justification Summary
 Explain why each structure is the best fit:
