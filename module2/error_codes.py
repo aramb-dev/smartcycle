@@ -1,4 +1,5 @@
 # Error codes. Smartcycle components have unique sensors on each component. If a component on each component fails it will trigger an error codes. However due to the variety of components, some error codes are shared between components and some are unique to a specific component.
+from tabulate import tabulate
 error_codes = {
     "E101": {"description": "Over-voltage detected", "components": ["BMS001", "BMS002", "BMS003", "BMS004", "BMS005", "BMS006"]},
     "E102": {"description": "Under-voltage detected", "components": ["BMS001", "BMS002", "BMS003", "BMS004", "BMS005", "BMS006"]},
@@ -113,3 +114,36 @@ error_codes = {
     "E365": {"description": "Fusible resistor temperature creep", "components": ["RST007"]},
     "E366": {"description": "Carbon film burn spot", "components": ["RST001"]},
 }
+
+# function to lookup multiple error codes from usage logs
+def lookup_error_codes(error_codes_list=None):
+    # paste in csv format error codes you want to lookup if error codes are not provided in the function call
+    if error_codes_list is None:
+        error_codes_list = input("Enter the error codes you want to lookup (comma-separated): > ")
+        error_codes_list = error_codes_list.split(",")
+    for code in error_codes_list:
+        # if error code does not follow the pattern E### then raise an error saying that it must follow the apttern
+        if not code.startswith("E") or len(code) != 5 or not code[1:].isdigit():
+            raise ValueError(f"Error code {code} must folow the pattern E###")
+        # if error code does not exist in the error codes list then also raise an error saying that there exists no such error code
+        if code not in error_codes:
+            raise ValueError(f"Error code {code} does not exist in the error codes list")
+        # print the description and components associated with the error code in a table format we can use the tabulate library for this
+        print(tabulate([[code, error_codes[code]['description'], ", ".join(error_codes[code]['components'])]], headers=["Error Code", "Description", "Components"], tablefmt="grid"))
+
+# this will be a funtion to do a sweep and automatically remove any duplicate error codes from the list of error codes
+def clean_error_codes():
+    # paste in csv format error codes you want to lookup
+    error_codes_list = input("Enter the error codes you want to lookup (comma-separated): > ")
+    error_codes_list = error_codes_list.split(",")
+    # remove any duplicate error codes from the list of error codes
+    error_codes_list = list(set(error_codes_list))
+    # print the cleaned list of error codes
+    print("Cleaned list of error codes:")
+    for code in error_codes_list:
+        print(code)
+    # at the descretion of the user, ask if they want the error codes to be looked up
+    lookup = input("Do you want to look up the error codes? (y/n): > ")
+    lookup = lookup.lower()
+    if lookup == "y":
+        lookup_error_codes()
