@@ -40,8 +40,12 @@
 - Scan the log to find when a specific action occurred
 
 ## 4. Justification Summary
-Explain why each structure is the best fit:
 
-- **Dictionary:** fast lookup + easy updates by key
-- **Set:** uniqueness + fast membership tests
-- **List:** preserves order + supports duplicates + natural for logs
+- **Dictionary:**  
+  The component inventory uses a dictionary because each component can be uniquely identified by its component ID. This allows for fast lookups, easy updates to quantities, and scalable management as more components are added.
+
+- **Set:**  
+  Error codes are stored in a set because only unique error codes are meaningful for diagnostics. Using a set automatically removes duplicates and allows quick checks to determine whether a specific error occurred.
+
+- **List:**  
+  User activity logs are stored in a list because order matters. Lists preserve the sequence of events and allow duplicate actions, which is necessary when tracking repeated user behavior over time.
