@@ -1,7 +1,7 @@
 print("Welcome to the Module 1 Smartcycle Data Processing Application!")
 
 # init values
-distances = [24.5, 31.2, 27,8,45.6,62.4,38.9]
+distances = [24.5, 31.2, 27.8,45.6,62.4,38.9]
 battery = [48,55,61,52,47,59,'24']
 
 if len(distances) != 7:
@@ -35,14 +35,14 @@ for day in range(len(battery)):
 # check for corrupted distance entries, which is everything but floats and ints
 
 for day in range(len(distances)):
-    if not (typeof(distances[day]) is float or typeof(distances[day]) is int):
+    if not (type(distances[day]) is float or typeof(distances[day]) is int):
         print(f"Data for day {day + 1} seems off: Distance = {distances[day]}, Battery = {battery[day]}")
         corrected_distance = float(input(f"Please enter the correct distance for day {day + 1} > "))
         distances[day] = corrected_distance
 
 # check for currupted battery entries, which is everything but integers
 for day in range(len(battery)):
-    if not typeof(battery[day]) is int:
+    if not type(battery[day]) is int:
         print(f"Data for day {day + 1} seems off: Distance = {distances[day]}, Battery = {battery[day]}")
         corrected_battery = int(input(f"Please enter the correct battery percentage for day {day + 1} > "))
         battery[day] = corrected_battery
