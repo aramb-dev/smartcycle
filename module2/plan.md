@@ -1,15 +1,18 @@
 # Module 2 – Plan (Data Structures)
 
 ## 1. Dictionary: Component Inventory
-**Structure:** dict  
-**Purpose:** Store SmartCycle components so the program can quickly look up a part and update its quantity.
+**Structure:** Dictionary (dict)  
+**Purpose:** Store SmartCycle components so the system can quickly look up parts and update quantities.
 
-- **Key:** ____________________ (choose: component ID or part name)
-- **Value:** __________________ (choose: quantity only OR a small record like {name, quantity})
-- **Example operations I will demonstrate:**
-  - Look up a component by key
-  - Update quantity after a replacement
-  - Add a new component entry
+- **Key:** Component ID (e.g., "BAT001", "SEN102")
+- **Value:** A small record containing:
+  - Component name
+  - Quantity available
+
+**Example operations I will demonstrate:**
+- Look up a component using its ID
+- Update the quantity after a component replacement
+- Add a new component to the inventory
 
 ## 2. Set: Error Codes
 **Structure:** set  
