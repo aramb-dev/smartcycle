@@ -38,6 +38,8 @@
 - Display recent user actions in order
 - Scan the log to find when a specific action occurred
 
+**Implementation:** Use a decorator pattern to automatically log every function call in main.py. Each time a decorated function runs, it appends an entry to `activity_logs` with the function name, timestamp, and user ID. Helper functions allow viewing recent logs and searching by action keyword.
+
 ## 4. Justification Summary
 
 - **Dictionary:**  
