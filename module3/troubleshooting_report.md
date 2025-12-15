@@ -36,8 +36,12 @@ Based on the possible causes, the following solutions are possible:
 - After restarting the logging service, check timestamps on log files to confirm new data is being written.
 - Monitor sensor readings after addressing power issues to ensure stable operation.
 
-## Step 5: Verify and Monitor
+## Step 5: Verification and Mitigation of this issue
 
 Once the sensor data is restored, the system will be monitored over an extended period of time.  
 Logs will be reviewed to ensure data is consistently recorded, and alerts will be configured to notify the team if data transmission stops again.
 
+## Step 6: Documentation
+
+All troubleshooting steps, test results, and final resolutions will be documented.  
+This documentation will be used to improve future response times and prevent similar sensor data failures from occurring again.
