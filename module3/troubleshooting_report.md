@@ -27,3 +27,11 @@ Based on the possible causes, the following solutions are possible:
 - Check firmware and application versions and roll back or patch recent updates if necessary.
 - Restart or repair the logging service responsible for recording sensor data.
 - Verify power levels and replace or recharge batteries if needed.
+
+## Step 4: Testing
+
+- After checking the hardware, confirm whether sensor data begins appearing in the monitoring application.
+- Restart communication services and observe whether new log entries are generated.
+- Apply software fixes and monitor system behavior for errors or warnings.
+- After restarting the logging service, check timestamps on log files to confirm new data is being written.
+- Monitor sensor readings after addressing power issues to ensure stable operation.
