@@ -21,9 +21,8 @@
 - **Error code format:** Numeric-style strings (e.g., "E101", "E202", "E305")
 
 **Operations I will demonstrate:**
-- Add multiple error codes from ride logs
-- Automatically remove duplicate error codes
-- Check whether a specific error code occurred during the week
+- Look up error codes
+- Clean up error code list (remove duplicates)
 
 ## 3. List: User Activity Logs
 **Structure:** List  
