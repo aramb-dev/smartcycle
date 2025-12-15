@@ -35,3 +35,9 @@ Based on the possible causes, the following solutions are possible:
 - Apply software fixes and monitor system behavior for errors or warnings.
 - After restarting the logging service, check timestamps on log files to confirm new data is being written.
 - Monitor sensor readings after addressing power issues to ensure stable operation.
+
+## Step 5: Verify and Monitor
+
+Once the sensor data is restored, the system will be monitored over an extended period of time.  
+Logs will be reviewed to ensure data is consistently recorded, and alerts will be configured to notify the team if data transmission stops again.
+
