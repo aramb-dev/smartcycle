@@ -4,10 +4,6 @@ title: Module 2
 
 # Module 2
 
-```{include} ../../module2/README.md
-:relative-docs: ../../
-```
-
 ## Plan
 
 ```{include} ../../module2/plan.md

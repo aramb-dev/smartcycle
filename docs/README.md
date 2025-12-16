@@ -7,8 +7,8 @@ This site is built with MyST Markdown and Jupyter Book.
 ```bash
 # Create/activate your Python environment first
 pip install -r ../requirements.txt
-jupyter-book build .
-open _build/html/index.html
+jupyter-book build . --path-output ..
+open ../index.html
 ```
 
 ## Deploy to GitHub Pages
@@ -38,9 +38,8 @@ brew install typst
 
 ```bash
 cd ..
-mkdir -p docs/_build/typst
-typst compile --root . docs/typst/book.typ docs/_build/typst/book.pdf
-open docs/_build/typst/book.pdf
+typst compile --root . docs/typst/book.typ book.pdf
+open book.pdf
 ```
 
 The Typst sources live in `typst/` and use `--root` to access repository files.

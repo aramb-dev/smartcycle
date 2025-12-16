@@ -49,8 +49,6 @@
 
 = Module 1
 
-#raw(read("../../module1/README.md"), lang: "markdown", block: true)
-
 == Plan
 
 #raw(read("../../module1/plan.md"), lang: "markdown", block: true)

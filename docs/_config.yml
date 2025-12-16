@@ -1,17 +1,14 @@
 # Jupyter Book configuration using MyST
 # Docs: https://jupyterbook.org/en/stable/customize/config.html
 
-root: .
+# Book metadata
+title: SmartCycle Book
+author: SmartCycle Team
+logo: ""
 
-# Book settings
-# -------------
-project:
-  name: SmartCycle
-
-site:
-  title: SmartCycle Book
-  description: Documentation and plans for SmartCycle
-  url: https://aramb-dev.github.io/smartcycle/
+# Execution settings
+execute:
+  execute_notebooks: off
 
 # Parse MyST Markdown
 parse:
@@ -25,13 +22,11 @@ parse:
 
 # HTML output
 html:
-  favicon: null
   use_repository_button: true
   use_edit_page_button: true
   use_issues_button: true
   extra_footer: "Built with Jupyter Book + MyST"
   baseurl: "/smartcycle/"
-  google_analytics_id: null
 
 # Repository configuration (for buttons)
 repository:

@@ -16,16 +16,8 @@ brew install typst
 
 ```bash
 cd ../..
-mkdir -p docs/_build/typst
-typst compile --root . docs/typst/book.typ docs/_build/typst/book.pdf
-open docs/_build/typst/book.pdf
-```
-
-If the output folder doesn't exist:
-
-```bash
-mkdir -p docs/_build/typst
-typst compile --root . docs/typst/book.typ docs/_build/typst/book.pdf
+typst compile --root . docs/typst/book.typ book.pdf
+open book.pdf
 ```
 
 ## Notes
