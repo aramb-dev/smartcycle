@@ -3,7 +3,7 @@
 ## Overview
 This module documents how collaboration and productivity tools were used to plan, organize, and complete the SmartCycle Data Console capstone project. The tools supported communication, file sharing, feedback, and coordination throughout development.
 
----
+
 
 ## Tools Used
 
@@ -19,7 +19,7 @@ Used for virtual meetings to discuss project progress, troubleshoot issues, and 
 ### Google Groups
 Used to centralize project-related communication and announcements for team members.
 
----
+
 
 ## Collaboration Workflow
 
@@ -29,7 +29,7 @@ Used to centralize project-related communication and announcements for team memb
 4. Meetings were held using Google Meet to discuss progress and resolve issues.
 5. Google Groups was used to send updates and reminders to the team.
 
----
+
 
 ## Evidence of Collaboration
 
