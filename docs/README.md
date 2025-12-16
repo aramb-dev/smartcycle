@@ -23,3 +23,24 @@ open _build/html/index.html
 - ToC: `_toc.yml`
 - Entry: `index.md`
 - Modules: `modules/*.md` (include files from `../module*/`)
+
+## Build a PDF with Typst
+
+Typst provides fast, high-quality PDF output.
+
+### Install Typst (macOS)
+
+```bash
+brew install typst
+```
+
+### Compile the PDF
+
+```bash
+cd ..
+mkdir -p docs/_build/typst
+typst compile --root . docs/typst/book.typ docs/_build/typst/book.pdf
+open docs/_build/typst/book.pdf
+```
+
+The Typst sources live in `typst/` and use `--root` to access repository files.
