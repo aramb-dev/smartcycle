@@ -12,10 +12,7 @@ title: Module 1
 
 ## Main Script
 
-```{code-block} python
-:caption: module1/main.py
-:emphasize-lines: 1
+```{literalinclude} ../../module1/main.py
+:language: python
 :linenos:
-
-{include} ../../module1/main.py
 ```

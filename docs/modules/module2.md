@@ -12,27 +12,21 @@ title: Module 2
 
 ## Components
 
-```{code-block} python
-:caption: module2/components.py
+```{literalinclude} ../../module2/components.py
+:language: python
 :linenos:
-
-{include} ../../module2/components.py
 ```
 
 ## Error Codes
 
-```{code-block} python
-:caption: module2/error_codes.py
+```{literalinclude} ../../module2/error_codes.py
+:language: python
 :linenos:
-
-{include} ../../module2/error_codes.py
 ```
 
 ## Main Script
 
-```{code-block} python
-:caption: module2/main.py
+```{literalinclude} ../../module2/main.py
+:language: python
 :linenos:
-
-{include} ../../module2/main.py
 ```

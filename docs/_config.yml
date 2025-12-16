@@ -10,6 +10,13 @@ logo: ""
 execute:
   execute_notebooks: off
 
+# Sphinx configuration
+sphinx:
+  extra_extensions:
+    - sphinx.ext.todo
+  config:
+    html_extra_path: ['../module4']
+
 # Parse MyST Markdown
 parse:
   myst_enable_extensions:
