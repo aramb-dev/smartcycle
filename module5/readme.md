@@ -3,7 +3,7 @@
 ## Overview
 This module identifies the intellectual property (IP) associated with the SmartCycle Data Console project and explains how different forms of IP protection apply. The goal is to protect innovation, prevent misuse, and preserve the value of the system.
 
----
+
 
 ## Types of Intellectual Property
 
@@ -18,7 +18,7 @@ Patents protect new and useful inventions or processes.
 **Why Patents Matter:**
 Patents prevent other companies from copying innovative technical solutions and allow the inventor to control how the technology is used or licensed.
 
----
+
 
 ### Copyright
 Copyright protects original creative works.
@@ -31,7 +31,7 @@ Copyright protects original creative works.
 **Why Copyright Matters:**
 Copyright ensures that original software and written materials cannot be copied or distributed without permission.
 
----
+
 
 ### Trademarks
 Trademarks protect brand identity.
@@ -43,7 +43,7 @@ Trademarks protect brand identity.
 **Why Trademarks Matter:**
 Trademarks prevent confusion in the marketplace and protect the reputation and identity of the product.
 
----
+
 ## IP Mapping Summary
 
 | SmartCycle Component            | IP Type       | Reason |
@@ -60,7 +60,7 @@ Failing to protect intellectual property could result in:
 - Reduced ability to monetize or license the technology
 - Legal disputes over ownership
 
----
+
 
 ## Connection to Innovation Protection Practices
 
