@@ -1,0 +1,15 @@
+# Table of contents
+# Docs: https://jupyterbook.org/en/stable/structure/toc.html
+
+format: jb-book
+root: index
+
+chapters:
+  - file: modules/overview
+    sections:
+      - file: modules/module1
+      - file: modules/module2
+      - file: modules/module3
+      - file: modules/module4
+      - file: modules/module5
+      - file: modules/module6
