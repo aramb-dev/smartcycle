@@ -8,7 +8,7 @@ This site is built with MyST Markdown and Jupyter Book.
 # Create/activate your Python environment first
 pip install -r ../requirements.txt
 jupyter-book build . --path-output ..
-open ../index.html
+open ../_build/html/index.html
 ```
 
 ## Deploy to GitHub Pages
